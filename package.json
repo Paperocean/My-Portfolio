@@ -1,13 +1,13 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Michał Wróblewski - Portfolio",
   "source": "src/index.html",
   "homepage": "http://{github-username}.github.io/{repo-name}",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Paperocean.github.io/My-Portfolio'",
+    "build-gh": "parcel build --public-url 'https://Paperocean.github.io/site-portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
