@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/img2.jpg";
+import image from "../images/img5.jpg";
 
 const imageAltText = "abstract background";
 
@@ -31,9 +31,9 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Object Oriented Programming",
   "C++",
   "SQL Databases",
+  "Object Oriented Programming",
   "Artificial Intelligence",
   "Data Structures",
   "Optymalization of processes",
@@ -59,6 +59,7 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          borderRadius: "20px",
         }}
       >
         <h2>About Myself</h2>

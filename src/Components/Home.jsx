@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
+// import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
 /**
@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/img1.jpg";
 
-const imageAltText = "Abstract image";
+// const imageAltText = "Abstract image";
 
 const Home = ({ name, title }) => {
   return (
@@ -32,9 +32,9 @@ const Home = ({ name, title }) => {
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "1rem", left: "50%" }}>
+      {/* <div style={{ position: "absolute", bottom: "1rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
-      </div>
+      </div> */}
     </section>
   );
 };

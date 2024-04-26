@@ -36,7 +36,7 @@ const siteProps = {
 };
 
 // const primaryColor = "#4E567E";
-const primaryColor = "#3C5B6F";
+const primaryColor = "#36573B";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {

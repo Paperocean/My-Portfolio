@@ -47,8 +47,8 @@ const Footer = (props) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: "2.5rem",
-        padding: "5rem 0 3rem",
+        gap: "0.5rem",
+        padding: "1rem 0 0.25rem",
         backgroundColor: primaryColor,
         width: "100vw"
       }}
@@ -57,7 +57,8 @@ const Footer = (props) => {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "2.5rem",
+          gap: "1.5rem",
+          padding: "1rem 0",
         }}
       >
         {email && (
