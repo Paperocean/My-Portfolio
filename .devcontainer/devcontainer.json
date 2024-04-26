@@ -24,7 +24,10 @@
         "GitHub.copilot",
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps",
-        "oderwat.indent-rainbow"
+        "oderwat.indent-rainbow",
+        "ritwickdey.LiveServer",
+        "sdras.night-owl",
+        "wesbos.theme-cobalt2"
       ],
       "settings": {
         "emmet.includeLanguages": {
@@ -32,7 +35,40 @@
         },
         "emmet.triggerExpansionOnTab": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "files.exclude": {
+          "**/.git": true,
+          "**/.DS_Store": true,
+          "**/.vscode": true,
+          "**/node_modules": true
+        },
+        "files.associations": {
+          "*.js": "javascriptreact"
+        },
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "javascript.suggest.autoImports": true,
+        "javascript.preferences.importModuleSpecifierEnding": "minimal",
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "typescript.suggest.autoImports": true,
+        "typescript.preferences.importModuleSpecifierEnding": "minimal",
+        "typescript.tsserver.log": "verbose",
+        "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+        "typescript.tsserver.experimental.enableProjectStruture": true,
+        "typescript.tsserver.experimental.enableProjectReferences": true,
+        "typescript.tsserver.experimental.enablePluginModuleResolution": true,
+        "typescript.tsserver.experimental.enableDocumentHighlights": true,
+        "typescript.tsserver.experimental.enableDocumentSymbol": true,
+        "typescript.tsserver.experimental.enableCompletionEntryDetails": true,
+        "typescript.tsserver.experimental.enableCodeFix": true,
+        "typescript.tsserver.experimental.enableApplicableRefactors": true
       }
     }
   },
