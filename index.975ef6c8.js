@@ -28741,7 +28741,7 @@ const imageAltText = "desk with computer and phone";
     },
     {
         title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+        description: "Includes my experience and abilities.",
         url: "https://paperocean.github.io/resume/"
     },
     {
