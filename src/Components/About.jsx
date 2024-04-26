@@ -18,25 +18,25 @@ import React from "react";
  */
 import image from "../images/img2.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am currently studying IT Automation Systems. Additionally, I have a keen interest in artificial intelligence. I always strive to learn new things and improve my skills in various";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Object Oriented Programming",
+  "C++",
+  "SQL Databases",
+  "Artificial Intelligence",
+  "Data Structures",
+  "Optymalization of processes",
 ];
 
 /**
@@ -45,8 +45,9 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "I am passionate about questioning the status quo and finding ways to improve processes. " + 
+  "I am always looking for ways to improve my skills and learn new things. "
+  
 const About = () => {
   return (
     <section className="padding" id="about">

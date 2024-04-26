@@ -31,16 +31,16 @@ const imageAltText = "desk with computer and phone";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Data Structures and Algorithms Time Complexity",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    "Created a visual representation of time complexity of various data structures and algorithms.",
+    url: "https://github.com/Paperocean/Data-Structure-Execution-Time-Testing",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sorting Algorithms",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Created sorting algorithms in C++.",
+    url: "https://github.com/Paperocean/Sorting-Algorithms",
   },
   {
     title: "My Resume Site",
@@ -49,10 +49,10 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Library project",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+        "Created a library project in C++.",
+    url: "https://github.com/Paperocean/Library",
   },
 ];
 
